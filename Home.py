@@ -51,13 +51,9 @@ of my artistic capabilities and leave a lasting impression on those who engage w
 
 st.write(about)
 
-col1, col2 = st.columns(2)
-
-with col1:
-    gallery = st.button("View Gallery")
-
-with col2:
-    contact = st.button("Contact Me")
+gallery = st.button("View Gallery")
 
 st.header("The Easel Gap")
 st.title("Store Coming Soon!")
+
+contact = st.button("Contact Me")
