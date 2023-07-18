@@ -6,10 +6,13 @@ st.title("The Easel Gap")
 st.header("Gallery")
 st.subheader("A quick look into my previous work...")
 
-csv_path = os.path.join(os.path.dirname(__file__), 'images.csv')
+csv_path = os.path.join(os.path.dirname(__file__), 'photos.csv')
 df = pd.read_csv(csv_path)
 
-image_folder = os.path.join(os.path.dirname(__file__), 'D:\Art Portfolio-web', 'images')
+
+image_folder = os.path.join(os.path.dirname(__file__), 'images')
+# image_folder = os.path.join(os.path.dirname(__file__))
+
 
 rows_with_zero_image = df[df['image'] == '0']
 
