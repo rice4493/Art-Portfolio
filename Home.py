@@ -24,7 +24,7 @@ def set_background(png_file):
     st.markdown(page_bg_img, unsafe_allow_html=True)
 
 
-filepath = 'images/pexels-cottonbro-studio-7885582.jpg'
+filepath = 'pages/images/pexels-cottonbro-studio-7885582.jpeg'
 set_background(filepath)
 
 

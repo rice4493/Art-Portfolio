@@ -21,3 +21,5 @@ for index, row in df.iterrows():
     st.write(row['description'])
     image_path = os.path.join(image_folder, row['image'])
     st.image(image_path)
+
+next_page = st.button("Next")
